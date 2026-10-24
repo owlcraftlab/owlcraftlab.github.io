@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="18 18 72 72" width="512" height="512">
+  <defs><clipPath id="m"><rect x="18" y="18" width="72" height="72" rx="17"/></clipPath></defs>
+  <g clip-path="url(#m)">
+    <rect x="0" y="0" width="108" height="108" fill="#3F6E4E"/>
+    <path fill="#FFF8E7" fill-rule="evenodd" d="M39,35 H74 Q77,35 77,38 V70 Q77,73 74,73 H34 Q31,73 31,70 V43 Z M44,40 h3 v5 h-3 Z M50,40 h3 v5 h-3 Z M56,40 h3 v5 h-3 Z M62,40 h3 v5 h-3 Z M68,40 h3 v5 h-3 Z M41.23,59.77 L44.77,56.23 L50,61.46 L64.23,47.23 L67.77,50.77 L50,68.54 Z"/>
+  </g>
+</svg>
