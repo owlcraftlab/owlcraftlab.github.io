@@ -29,7 +29,7 @@ img, svg { max-width: 100%; }
 .nav { position: sticky; top: 0; z-index: 10; backdrop-filter: saturate(1.4) blur(14px); background: color-mix(in srgb, var(--bg) 78%, transparent); border-bottom: 1px solid color-mix(in srgb, var(--line) 70%, transparent); }
 .nav .wrap { display: flex; align-items: center; justify-content: space-between; height: 60px; }
 .brand-link { display: inline-flex; align-items: center; gap: 10px; font-weight: 800; letter-spacing: -.02em; text-decoration: none; font-size: 1.05rem; }
-.brand-link .dot { width: 26px; height: 26px; border-radius: 8px; background: var(--text); color: var(--bg); display: grid; place-items: center; font-size: .8rem; font-weight: 800; }
+.brand-link .brand-mark { width: 30px; height: 30px; display: block; }
 .nav-links { display: flex; gap: 6px; }
 .nav-links a { text-decoration: none; color: var(--muted); font-weight: 600; font-size: .95rem; padding: 8px 12px; border-radius: 10px; }
 .nav-links a:hover { background: var(--soft); color: var(--text); }
@@ -79,6 +79,8 @@ section { padding-block: 56px; }
 .app-card p { color: var(--muted); margin: 0 0 16px; max-width: 40rem; }
 .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px; }
 .chip { font-size: .85rem; font-weight: 600; padding: 5px 12px; border-radius: 999px; background: var(--soft); }
+.app-card .tiles { grid-column: 1 / -1; margin-top: 4px; }
+.app-card .tile { background: var(--soft); border-color: transparent; }
 .tiles { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-top: 18px; }
 .tile { background: var(--surface); border: 1px solid var(--line); border-radius: 18px; padding: 20px; }
 .tile .glyph { width: 40px; height: 40px; border-radius: 12px; background: var(--accent-soft); color: var(--accent); display: grid; place-items: center; font-size: 1.2rem; margin-bottom: 12px; }
